@@ -1,11 +1,35 @@
 $(document).ready(function(){
     $(".arrow-1").click(function(){
-		$("#story-1").toggle();
+		$("#story-1").toggle(500);
     });
     $(".arrow-2").click(function(){
-		$("#story-2").toggle();
+		$("#story-2").toggle(500);
     });
     $(".arrow-3").click(function(){
-		$("#story-3").toggle();
+		$("#story-3").toggle(500);
+    });
+    $(".arrow-11").click(function(){
+		$("#june-stories-1").toggle(500);
+    });
+    $(".arrow-12").click(function(){
+		$("#february-stories-1").toggle(500);
+    });
+    $(".arrow-21").click(function(){
+        $("#november-stories-2").toggle(500);
+    });
+    $(".arrow-22").click(function(){
+        $("#october-stories-2").toggle(500);
+    });
+    $(".arrow-23").click(function(){
+        $("#august-stories-2").toggle(500);
+    });
+    $(".arrow-24").click(function(){
+        $("#july-stories-2").toggle(500);
+    });
+    $(".arrow-31").click(function(){
+        $("#december-stories-3").toggle(500);
+    });
+    $(".arrow-32").click(function(){
+        $("#november-stories-3").toggle(500);
     });
 });
